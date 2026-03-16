@@ -24,6 +24,30 @@
     <h2>Texto inserido e texto sublinhado</h2>
     <p>Veja um exemplo de <ins>texto inserido</ins>.</p>
     <p>Veja um exemplo de <u>texto sublinhado</u>.</p>
-    <p></p>
+    <h2>Utilizando a tag code.</h2>
+    <p>Inserindo um <code>document.getElementById('edtCodigo')</code>que é um comando JavaScript.</p>
+    <pre>
+        <code>
+            import math
+
+# coeficientes
+a = 1
+b = -3
+c = 2
+
+# cálculo do delta
+delta = b**2 - 4*a*c
+
+if delta < 0:
+    print("A equação não possui raízes reais.")
+else:
+    x1 = (-b + math.sqrt(delta)) / (2*a)
+    x2 = (-b - math.sqrt(delta)) / (2*a)
+
+    print("Delta =", delta)
+    print("x1 =", x1)
+    print("x2 =", x2)
+        </code>
+    </pre>
 </body> 
 </html>
